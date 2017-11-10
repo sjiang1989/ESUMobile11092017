@@ -6,9 +6,11 @@
 	<string>NSFileProtectionComplete</string>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.esu.esutest</string>
+		<string>group.esu.hello</string>
 	</array>
 	<key>keychain-access-groups</key>
-	<array/>
+	<array>
+		<string>$(AppIdentifierPrefix)com.esu.esutest.Assignments-Today</string>
+	</array>
 </dict>
 </plist>
